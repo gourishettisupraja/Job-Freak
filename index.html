@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fixed Sidebar Example</title>
+	<style>
+		.sidebar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 200px;
+			background-color: #ccc;
+			padding: 20px;
+		}
+		.content {
+			margin-left: 220px;
+			padding: 20px;
+		}
+		h1 {
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="sidebar">
+		<h2>Navigation</h2>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<h1>Welcome to my website</h1>
+		<p>Select a page from the sidebar to see more information.</p>
+		<div id="about">
+			<h2>About</h2>
+			<p>This is the about page. Here you can learn more about me and my work.</p>
+		</div>
+		<div id="contact">
+			<h2>Contact</h2>
+			<p>This is the contact page. Here you can find my contact information.</p>
+		</div>
+	</div>
+</body>
+</html>
